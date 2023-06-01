@@ -1,0 +1,547 @@
+# HELP jvm_classes_unloaded_classes_total The total number of classes unloaded since the Java virtual machine has started execution
+# TYPE jvm_classes_unloaded_classes_total counter
+jvm_classes_unloaded_classes_total 687.0
+# HELP jvm_memory_used_bytes The amount of used memory
+# TYPE jvm_memory_used_bytes gauge
+jvm_memory_used_bytes{area="heap",id="Tenured Gen",} 2.0886712E7
+jvm_memory_used_bytes{area="nonheap",id="CodeHeap 'profiled nmethods'",} 2.1597696E7
+jvm_memory_used_bytes{area="heap",id="Eden Space",} 1.0415632E7
+jvm_memory_used_bytes{area="nonheap",id="Metaspace",} 6.9523592E7
+jvm_memory_used_bytes{area="nonheap",id="CodeHeap 'non-nmethods'",} 1610368.0
+jvm_memory_used_bytes{area="heap",id="Survivor Space",} 116024.0
+jvm_memory_used_bytes{area="nonheap",id="Compressed Class Space",} 8271824.0
+jvm_memory_used_bytes{area="nonheap",id="CodeHeap 'non-profiled nmethods'",} 5671680.0
+# HELP jvm_threads_states_threads The current number of threads having NEW state
+# TYPE jvm_threads_states_threads gauge
+jvm_threads_states_threads{state="runnable",} 6.0
+jvm_threads_states_threads{state="blocked",} 0.0
+jvm_threads_states_threads{state="waiting",} 5.0
+jvm_threads_states_threads{state="timed-waiting",} 8.0
+jvm_threads_states_threads{state="new",} 0.0
+jvm_threads_states_threads{state="terminated",} 0.0
+# HELP hibernate_optimistic_failures_total The number of Hibernate StaleObjectStateExceptions or JPA OptimisticLockExceptions that occurred.
+# TYPE hibernate_optimistic_failures_total counter
+hibernate_optimistic_failures_total{entityManagerFactory="<default>",} 0.0
+# HELP hibernate_collections_fetches_total Global number of collections fetched
+# TYPE hibernate_collections_fetches_total counter
+hibernate_collections_fetches_total{entityManagerFactory="<default>",} 0.0
+# HELP checksQuantidadeExecucaoSolicitacaoAutorizacao_total Registra a quantidade de execuções
+# TYPE checksQuantidadeExecucaoSolicitacaoAutorizacao_total counter
+checksQuantidadeExecucaoSolicitacaoAutorizacao_total{class="br.com.bb.itp.rest.v1.SolicitarAutorizacaoPagamentoOpenbankingResource",exception="none",method="contadorExecucaoSolicitacao",result="success",} 5.0
+# HELP hibernate_natural_id_executions_total The number of natural id query executions
+# TYPE hibernate_natural_id_executions_total counter
+hibernate_natural_id_executions_total{entityManagerFactory="<default>",} 0.0
+# HELP hibernate_cache_query_plan_total The number of query plan cache requests (see result for hit or miss)
+# TYPE hibernate_cache_query_plan_total counter
+hibernate_cache_query_plan_total{entityManagerFactory="<default>",result="hit",} 144.0
+hibernate_cache_query_plan_total{entityManagerFactory="<default>",result="miss",} 20.0
+# HELP jvm_memory_max_bytes The maximum amount of memory in bytes that can be used for memory management
+# TYPE jvm_memory_max_bytes gauge
+jvm_memory_max_bytes{area="heap",id="Tenured Gen",} 1.74784512E8
+jvm_memory_max_bytes{area="nonheap",id="CodeHeap 'profiled nmethods'",} 1.22912768E8
+jvm_memory_max_bytes{area="heap",id="Eden Space",} 6.9926912E7
+jvm_memory_max_bytes{area="nonheap",id="Metaspace",} -1.0
+jvm_memory_max_bytes{area="nonheap",id="CodeHeap 'non-nmethods'",} 5828608.0
+jvm_memory_max_bytes{area="heap",id="Survivor Space",} 8716288.0
+jvm_memory_max_bytes{area="nonheap",id="Compressed Class Space",} 1.073741824E9
+jvm_memory_max_bytes{area="nonheap",id="CodeHeap 'non-profiled nmethods'",} 1.22916864E8
+# HELP checksQuantidadeExecucaoConsultaAutorizacaoSolicitacao_total Registra a quantidade de execuções
+# TYPE checksQuantidadeExecucaoConsultaAutorizacaoSolicitacao_total counter
+checksQuantidadeExecucaoConsultaAutorizacaoSolicitacao_total{class="br.com.bb.itp.rest.v1.ConsultarAutorizacaoPagamentoOpenbankingResource",exception="none",method="contadorExecucaoConsulta",result="success",} 13.0
+# HELP hibernate_natural_id_cache_puts_total The number of cacheable natural id requests put in cache
+# TYPE hibernate_natural_id_cache_puts_total counter
+hibernate_natural_id_cache_puts_total{entityManagerFactory="<default>",} 0.0
+# HELP checksQuantidadeExecucaoSolicitacaoAutorizacaoComErro_total Registra a quantidade de execuções com erro
+# TYPE checksQuantidadeExecucaoSolicitacaoAutorizacaoComErro_total counter
+checksQuantidadeExecucaoSolicitacaoAutorizacaoComErro_total{class="br.com.bb.itp.services.SolicitarConsentimentoOPBService",exception="none",method="contadorExecucaoSolicitacaoComErro",result="success",} 3.0
+# HELP hibernate_entities_updates_total Global number of entity updates
+# TYPE hibernate_entities_updates_total counter
+hibernate_entities_updates_total{entityManagerFactory="<default>",} 6.0
+# HELP http_server_bytes_read  
+# TYPE http_server_bytes_read summary
+http_server_bytes_read_count 25.0
+http_server_bytes_read_sum 5694.0
+# HELP http_server_bytes_read_max  
+# TYPE http_server_bytes_read_max gauge
+http_server_bytes_read_max 1030.0
+# HELP hibernate_connections_obtained_total Get the global number of connections asked by the sessions (the actual number of connections used may be much smaller depending whether you use a connection pool or not)
+# TYPE hibernate_connections_obtained_total counter
+hibernate_connections_obtained_total{entityManagerFactory="<default>",} 87.0
+# HELP checksTempoExecucaoConciliarPagamentoIFExterna_seconds_max Tempo de conciliacao de pagamento de instituição financeira externa
+# TYPE checksTempoExecucaoConciliarPagamentoIFExterna_seconds_max gauge
+checksTempoExecucaoConciliarPagamentoIFExterna_seconds_max{class="br.com.bb.itp.rest.v1.ConciliarPagamentoInstituicaoFinanceiraExternaResource",exception="none",method="servir",} 0.0
+# HELP checksTempoExecucaoConciliarPagamentoIFExterna_seconds Tempo de conciliacao de pagamento de instituição financeira externa
+# TYPE checksTempoExecucaoConciliarPagamentoIFExterna_seconds summary
+checksTempoExecucaoConciliarPagamentoIFExterna_seconds_count{class="br.com.bb.itp.rest.v1.ConciliarPagamentoInstituicaoFinanceiraExternaResource",exception="none",method="servir",} 1.0
+checksTempoExecucaoConciliarPagamentoIFExterna_seconds_sum{class="br.com.bb.itp.rest.v1.ConciliarPagamentoInstituicaoFinanceiraExternaResource",exception="none",method="servir",} 1.715527128
+# HELP hibernate_collections_updates_total Global number of collections updated
+# TYPE hibernate_collections_updates_total counter
+hibernate_collections_updates_total{entityManagerFactory="<default>",} 0.0
+# HELP hibernate_sessions_open_total Global number of sessions opened
+# TYPE hibernate_sessions_open_total counter
+hibernate_sessions_open_total{entityManagerFactory="<default>",} 87.0
+# HELP hibernate_cache_query_requests_total The number of query cache requests (see result for hit or miss)
+# TYPE hibernate_cache_query_requests_total counter
+hibernate_cache_query_requests_total{entityManagerFactory="<default>",result="hit",} 0.0
+hibernate_cache_query_requests_total{entityManagerFactory="<default>",result="miss",} 0.0
+# HELP jvm_threads_peak_threads The peak live thread count since the Java virtual machine started or peak was reset
+# TYPE jvm_threads_peak_threads gauge
+jvm_threads_peak_threads 22.0
+# HELP hibernate_collections_deletes_total Global number of collections removed
+# TYPE hibernate_collections_deletes_total counter
+hibernate_collections_deletes_total{entityManagerFactory="<default>",} 0.0
+# HELP jvm_classes_loaded_classes The number of classes that are currently loaded in the Java virtual machine
+# TYPE jvm_classes_loaded_classes gauge
+jvm_classes_loaded_classes 12732.0
+# HELP checksTempoExecucaoConsultaAutorizacaoSolicitacao_seconds Tempo de consulta de autorização de pagamento
+# TYPE checksTempoExecucaoConsultaAutorizacaoSolicitacao_seconds summary
+checksTempoExecucaoConsultaAutorizacaoSolicitacao_seconds_count{class="br.com.bb.itp.rest.v1.ConsultarAutorizacaoPagamentoOpenbankingResource",exception="BBRuntimeException",method="servir",} 5.0
+checksTempoExecucaoConsultaAutorizacaoSolicitacao_seconds_sum{class="br.com.bb.itp.rest.v1.ConsultarAutorizacaoPagamentoOpenbankingResource",exception="BBRuntimeException",method="servir",} 0.071153762
+checksTempoExecucaoConsultaAutorizacaoSolicitacao_seconds_count{class="br.com.bb.itp.rest.v1.ConsultarAutorizacaoPagamentoOpenbankingResource",exception="none",method="servir",} 8.0
+checksTempoExecucaoConsultaAutorizacaoSolicitacao_seconds_sum{class="br.com.bb.itp.rest.v1.ConsultarAutorizacaoPagamentoOpenbankingResource",exception="none",method="servir",} 0.23584388
+# HELP checksTempoExecucaoConsultaAutorizacaoSolicitacao_seconds_max Tempo de consulta de autorização de pagamento
+# TYPE checksTempoExecucaoConsultaAutorizacaoSolicitacao_seconds_max gauge
+checksTempoExecucaoConsultaAutorizacaoSolicitacao_seconds_max{class="br.com.bb.itp.rest.v1.ConsultarAutorizacaoPagamentoOpenbankingResource",exception="BBRuntimeException",method="servir",} 0.0
+checksTempoExecucaoConsultaAutorizacaoSolicitacao_seconds_max{class="br.com.bb.itp.rest.v1.ConsultarAutorizacaoPagamentoOpenbankingResource",exception="none",method="servir",} 0.013497857
+# HELP http_server_bytes_written_max  
+# TYPE http_server_bytes_written_max gauge
+http_server_bytes_written_max 57344.0
+# HELP http_server_bytes_written  
+# TYPE http_server_bytes_written summary
+http_server_bytes_written_count 3293.0
+http_server_bytes_written_sum 1.9009681E7
+# HELP jvm_buffer_memory_used_bytes An estimate of the memory that the Java virtual machine is using for this buffer pool
+# TYPE jvm_buffer_memory_used_bytes gauge
+jvm_buffer_memory_used_bytes{id="mapped",} 0.0
+jvm_buffer_memory_used_bytes{id="direct",} 892960.0
+# HELP hibernate_natural_id_requests_total The number of natural id cache requests (see result for hit or miss)
+# TYPE hibernate_natural_id_requests_total counter
+hibernate_natural_id_requests_total{entityManagerFactory="<default>",result="hit",} 0.0
+hibernate_natural_id_requests_total{entityManagerFactory="<default>",result="miss",} 0.0
+# HELP process_files_max_files The maximum file descriptor count
+# TYPE process_files_max_files gauge
+process_files_max_files 1048576.0
+# HELP hibernate_flushes_total Global number of flush operations executed (either manual or automatic).
+# TYPE hibernate_flushes_total counter
+hibernate_flushes_total{entityManagerFactory="<default>",} 147.0
+# HELP checksConsultaParametroSistema_seconds_max Estatistica de tempo da checksConsultaParametroSistema na tabela DB2ITP.PRM_SIS.
+# TYPE checksConsultaParametroSistema_seconds_max gauge
+checksConsultaParametroSistema_seconds_max{class="br.com.bb.itp.dao.ParametroSistemaDao",exception="none",method="consultaParametroSistema",} 0.003574839
+# HELP checksConsultaParametroSistema_seconds Estatistica de tempo da checksConsultaParametroSistema na tabela DB2ITP.PRM_SIS.
+# TYPE checksConsultaParametroSistema_seconds summary
+checksConsultaParametroSistema_seconds_count{class="br.com.bb.itp.dao.ParametroSistemaDao",exception="none",method="consultaParametroSistema",} 24.0
+checksConsultaParametroSistema_seconds_sum{class="br.com.bb.itp.dao.ParametroSistemaDao",exception="none",method="consultaParametroSistema",} 0.830766359
+# HELP process_start_time_seconds Start time of the process since unix epoch.
+# TYPE process_start_time_seconds gauge
+process_start_time_seconds 1.685617971638E9
+# HELP hibernate_query_executions_total The number of query executions
+# TYPE hibernate_query_executions_total counter
+hibernate_query_executions_total{entityManagerFactory="<default>",} 87.0
+# HELP jvm_threads_daemon_threads The current number of live daemon threads
+# TYPE jvm_threads_daemon_threads gauge
+jvm_threads_daemon_threads 15.0
+# HELP request_seconds_max records in a histogram the number of http requests and their duration in seconds
+# TYPE request_seconds_max gauge
+request_seconds_max{addr="/op6399335v2",errorMessage="",isError="false",method="POST",status="200",type="http",} 0.0
+request_seconds_max{addr="/op6782230v1",errorMessage="",isError="false",method="POST",status="200",type="http",} 0.0
+request_seconds_max{addr="/op6398558v1",errorMessage="",isError="false",method="POST",status="200",type="http",} 0.336
+request_seconds_max{addr="/op6398764v1",errorMessage="922",isError="true",method="POST",status="422",type="http",} 0.0
+request_seconds_max{addr="/op6398764v1",errorMessage="",isError="false",method="POST",status="200",type="http",} 0.015
+request_seconds_max{addr="/op6054435v2",errorMessage="",isError="false",method="POST",status="200",type="http",} 0.0
+# HELP request_seconds records in a histogram the number of http requests and their duration in seconds
+# TYPE request_seconds histogram
+request_seconds_bucket{addr="/op6399335v2",errorMessage="",isError="false",method="POST",status="200",type="http",le="0.1",} 4.0
+request_seconds_bucket{addr="/op6399335v2",errorMessage="",isError="false",method="POST",status="200",type="http",le="0.3",} 4.0
+request_seconds_bucket{addr="/op6399335v2",errorMessage="",isError="false",method="POST",status="200",type="http",le="1.5",} 5.0
+request_seconds_bucket{addr="/op6399335v2",errorMessage="",isError="false",method="POST",status="200",type="http",le="10.5",} 5.0
+request_seconds_bucket{addr="/op6399335v2",errorMessage="",isError="false",method="POST",status="200",type="http",le="+Inf",} 5.0
+request_seconds_count{addr="/op6399335v2",errorMessage="",isError="false",method="POST",status="200",type="http",} 5.0
+request_seconds_sum{addr="/op6399335v2",errorMessage="",isError="false",method="POST",status="200",type="http",} 0.674
+request_seconds_bucket{addr="/op6782230v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="0.1",} 0.0
+request_seconds_bucket{addr="/op6782230v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="0.3",} 0.0
+request_seconds_bucket{addr="/op6782230v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="1.5",} 0.0
+request_seconds_bucket{addr="/op6782230v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="10.5",} 1.0
+request_seconds_bucket{addr="/op6782230v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="+Inf",} 1.0
+request_seconds_count{addr="/op6782230v1",errorMessage="",isError="false",method="POST",status="200",type="http",} 1.0
+request_seconds_sum{addr="/op6782230v1",errorMessage="",isError="false",method="POST",status="200",type="http",} 1.718
+request_seconds_bucket{addr="/op6398558v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="0.1",} 0.0
+request_seconds_bucket{addr="/op6398558v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="0.3",} 1.0
+request_seconds_bucket{addr="/op6398558v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="1.5",} 3.0
+request_seconds_bucket{addr="/op6398558v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="10.5",} 5.0
+request_seconds_bucket{addr="/op6398558v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="+Inf",} 5.0
+request_seconds_count{addr="/op6398558v1",errorMessage="",isError="false",method="POST",status="200",type="http",} 5.0
+request_seconds_sum{addr="/op6398558v1",errorMessage="",isError="false",method="POST",status="200",type="http",} 7.194
+request_seconds_bucket{addr="/op6398764v1",errorMessage="922",isError="true",method="POST",status="422",type="http",le="0.1",} 5.0
+request_seconds_bucket{addr="/op6398764v1",errorMessage="922",isError="true",method="POST",status="422",type="http",le="0.3",} 5.0
+request_seconds_bucket{addr="/op6398764v1",errorMessage="922",isError="true",method="POST",status="422",type="http",le="1.5",} 5.0
+request_seconds_bucket{addr="/op6398764v1",errorMessage="922",isError="true",method="POST",status="422",type="http",le="10.5",} 5.0
+request_seconds_bucket{addr="/op6398764v1",errorMessage="922",isError="true",method="POST",status="422",type="http",le="+Inf",} 5.0
+request_seconds_count{addr="/op6398764v1",errorMessage="922",isError="true",method="POST",status="422",type="http",} 5.0
+request_seconds_sum{addr="/op6398764v1",errorMessage="922",isError="true",method="POST",status="422",type="http",} 0.135
+request_seconds_bucket{addr="/op6398764v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="0.1",} 8.0
+request_seconds_bucket{addr="/op6398764v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="0.3",} 8.0
+request_seconds_bucket{addr="/op6398764v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="1.5",} 8.0
+request_seconds_bucket{addr="/op6398764v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="10.5",} 8.0
+request_seconds_bucket{addr="/op6398764v1",errorMessage="",isError="false",method="POST",status="200",type="http",le="+Inf",} 8.0
+request_seconds_count{addr="/op6398764v1",errorMessage="",isError="false",method="POST",status="200",type="http",} 8.0
+request_seconds_sum{addr="/op6398764v1",errorMessage="",isError="false",method="POST",status="200",type="http",} 0.245
+request_seconds_bucket{addr="/op6054435v2",errorMessage="",isError="false",method="POST",status="200",type="http",le="0.1",} 0.0
+request_seconds_bucket{addr="/op6054435v2",errorMessage="",isError="false",method="POST",status="200",type="http",le="0.3",} 0.0
+request_seconds_bucket{addr="/op6054435v2",errorMessage="",isError="false",method="POST",status="200",type="http",le="1.5",} 1.0
+request_seconds_bucket{addr="/op6054435v2",errorMessage="",isError="false",method="POST",status="200",type="http",le="10.5",} 1.0
+request_seconds_bucket{addr="/op6054435v2",errorMessage="",isError="false",method="POST",status="200",type="http",le="+Inf",} 1.0
+request_seconds_count{addr="/op6054435v2",errorMessage="",isError="false",method="POST",status="200",type="http",} 1.0
+request_seconds_sum{addr="/op6054435v2",errorMessage="",isError="false",method="POST",status="200",type="http",} 0.352
+# HELP http_server_connections_seconds_max  
+# TYPE http_server_connections_seconds_max gauge
+http_server_connections_seconds_max 4969.529540544
+# HELP http_server_connections_seconds  
+# TYPE http_server_connections_seconds summary
+http_server_connections_seconds_active_count 12.0
+http_server_connections_seconds_duration_sum 8171.832293334
+# HELP checksTempoExecucaoFilaPagamento_seconds_max Tempo de processamento fila do pagamento
+# TYPE checksTempoExecucaoFilaPagamento_seconds_max gauge
+checksTempoExecucaoFilaPagamento_seconds_max{class="br.com.bb.itp.services.IniciarPagamentoOPBService",exception="none",method="iniciarPagamento",} 0.0
+# HELP checksTempoExecucaoFilaPagamento_seconds Tempo de processamento fila do pagamento
+# TYPE checksTempoExecucaoFilaPagamento_seconds summary
+checksTempoExecucaoFilaPagamento_seconds_count{class="br.com.bb.itp.services.IniciarPagamentoOPBService",exception="none",method="iniciarPagamento",} 1.0
+checksTempoExecucaoFilaPagamento_seconds_sum{class="br.com.bb.itp.services.IniciarPagamentoOPBService",exception="none",method="iniciarPagamento",} 3.52478345
+# HELP checksTempoExecucaoSolicitacaoAutorizacao_seconds_max Tempo de solicitação de autorização de pagamento
+# TYPE checksTempoExecucaoSolicitacaoAutorizacao_seconds_max gauge
+checksTempoExecucaoSolicitacaoAutorizacao_seconds_max{class="br.com.bb.itp.rest.v1.SolicitarAutorizacaoPagamentoOpenbankingResource",exception="none",method="servir",} 0.334486191
+# HELP checksTempoExecucaoSolicitacaoAutorizacao_seconds Tempo de solicitação de autorização de pagamento
+# TYPE checksTempoExecucaoSolicitacaoAutorizacao_seconds summary
+checksTempoExecucaoSolicitacaoAutorizacao_seconds_count{class="br.com.bb.itp.rest.v1.SolicitarAutorizacaoPagamentoOpenbankingResource",exception="none",method="servir",} 5.0
+checksTempoExecucaoSolicitacaoAutorizacao_seconds_sum{class="br.com.bb.itp.rest.v1.SolicitarAutorizacaoPagamentoOpenbankingResource",exception="none",method="servir",} 6.524342156
+# HELP jvm_buffer_count_buffers An estimate of the number of buffers in the pool
+# TYPE jvm_buffer_count_buffers gauge
+jvm_buffer_count_buffers{id="mapped",} 0.0
+jvm_buffer_count_buffers{id="direct",} 20.0
+# HELP hibernate_sessions_closed_total Global number of sessions closed
+# TYPE hibernate_sessions_closed_total counter
+hibernate_sessions_closed_total{entityManagerFactory="<default>",} 87.0
+# HELP http_server_requests_seconds  
+# TYPE http_server_requests_seconds summary
+http_server_requests_seconds_count{method="GET",outcome="SUCCESS",status="200",uri="/health/ready",} 544.0
+http_server_requests_seconds_sum{method="GET",outcome="SUCCESS",status="200",uri="/health/ready",} 105.173644043
+http_server_requests_seconds_count{method="POST",outcome="CLIENT_ERROR",status="422",uri="/op6398764v1",} 5.0
+http_server_requests_seconds_sum{method="POST",outcome="CLIENT_ERROR",status="422",uri="/op6398764v1",} 0.165702234
+http_server_requests_seconds_count{method="POST",outcome="SUCCESS",status="200",uri="/op6399335v2",} 5.0
+http_server_requests_seconds_sum{method="POST",outcome="SUCCESS",status="200",uri="/op6399335v2",} 0.706347127
+http_server_requests_seconds_count{method="POST",outcome="SUCCESS",status="200",uri="/op6782230v1",} 1.0
+http_server_requests_seconds_sum{method="POST",outcome="SUCCESS",status="200",uri="/op6782230v1",} 1.731502549
+http_server_requests_seconds_count{method="GET",outcome="SUCCESS",status="200",uri="/health",} 1064.0
+http_server_requests_seconds_sum{method="GET",outcome="SUCCESS",status="200",uri="/health",} 56.178580327
+http_server_requests_seconds_count{method="GET",outcome="SERVER_ERROR",status="503",uri="/health",} 24.0
+http_server_requests_seconds_sum{method="GET",outcome="SERVER_ERROR",status="503",uri="/health",} 320.070760329
+http_server_requests_seconds_count{method="GET",outcome="SUCCESS",status="200",uri="/health/live",} 530.0
+http_server_requests_seconds_sum{method="GET",outcome="SUCCESS",status="200",uri="/health/live",} 10.48035826
+http_server_requests_seconds_count{method="GET",outcome="CLIENT_ERROR",status="RESET",uri="/health",} 36.0
+http_server_requests_seconds_sum{method="GET",outcome="CLIENT_ERROR",status="RESET",uri="/health",} 21.215461172
+http_server_requests_seconds_count{method="POST",outcome="SUCCESS",status="200",uri="/op6398764v1",} 8.0
+http_server_requests_seconds_sum{method="POST",outcome="SUCCESS",status="200",uri="/op6398764v1",} 0.480930551
+http_server_requests_seconds_count{method="POST",outcome="SUCCESS",status="200",uri="/op6054435v2",} 1.0
+http_server_requests_seconds_sum{method="POST",outcome="SUCCESS",status="200",uri="/op6054435v2",} 0.373139379
+http_server_requests_seconds_count{method="GET",outcome="SUCCESS",status="200",uri="/metrics",} 550.0
+http_server_requests_seconds_sum{method="GET",outcome="SUCCESS",status="200",uri="/metrics",} 52.586416823
+http_server_requests_seconds_count{method="GET",outcome="SERVER_ERROR",status="503",uri="/health/ready",} 7.0
+http_server_requests_seconds_sum{method="GET",outcome="SERVER_ERROR",status="503",uri="/health/ready",} 103.089953678
+http_server_requests_seconds_count{method="GET",outcome="CLIENT_ERROR",status="RESET",uri="/health/ready",} 2.0
+http_server_requests_seconds_sum{method="GET",outcome="CLIENT_ERROR",status="RESET",uri="/health/ready",} 10.006466083
+http_server_requests_seconds_count{method="POST",outcome="SUCCESS",status="200",uri="/op6398558v1",} 5.0
+http_server_requests_seconds_sum{method="POST",outcome="SUCCESS",status="200",uri="/op6398558v1",} 7.367221481
+# HELP http_server_requests_seconds_max  
+# TYPE http_server_requests_seconds_max gauge
+http_server_requests_seconds_max{method="GET",outcome="SUCCESS",status="200",uri="/health/ready",} 0.010052704
+http_server_requests_seconds_max{method="POST",outcome="CLIENT_ERROR",status="422",uri="/op6398764v1",} 0.0
+http_server_requests_seconds_max{method="POST",outcome="SUCCESS",status="200",uri="/op6399335v2",} 0.0
+http_server_requests_seconds_max{method="POST",outcome="SUCCESS",status="200",uri="/op6782230v1",} 0.0
+http_server_requests_seconds_max{method="GET",outcome="SUCCESS",status="200",uri="/health",} 0.036767907
+http_server_requests_seconds_max{method="GET",outcome="SERVER_ERROR",status="503",uri="/health",} 0.0
+http_server_requests_seconds_max{method="GET",outcome="SUCCESS",status="200",uri="/health/live",} 0.001122768
+http_server_requests_seconds_max{method="GET",outcome="CLIENT_ERROR",status="RESET",uri="/health",} 0.0
+http_server_requests_seconds_max{method="POST",outcome="SUCCESS",status="200",uri="/op6398764v1",} 0.018600747
+http_server_requests_seconds_max{method="POST",outcome="SUCCESS",status="200",uri="/op6054435v2",} 0.0
+http_server_requests_seconds_max{method="GET",outcome="SUCCESS",status="200",uri="/metrics",} 0.004933963
+http_server_requests_seconds_max{method="GET",outcome="SERVER_ERROR",status="503",uri="/health/ready",} 0.0
+http_server_requests_seconds_max{method="GET",outcome="CLIENT_ERROR",status="RESET",uri="/health/ready",} 0.0
+http_server_requests_seconds_max{method="POST",outcome="SUCCESS",status="200",uri="/op6398558v1",} 0.341069567
+# HELP hibernate_query_natural_id_executions_max_MILLISECONDS The maximum query time for natural id queries executed against the database
+# TYPE hibernate_query_natural_id_executions_max_MILLISECONDS gauge
+hibernate_query_natural_id_executions_max_MILLISECONDS{entityManagerFactory="<default>",} 0.0
+# HELP checksSelectSolicitacaoPagamentoByID_seconds_max Estatistica de tempo do SELECT Convênio pelo ID na tabela DB2ITP.SLCT_PGTO_OPB.
+# TYPE checksSelectSolicitacaoPagamentoByID_seconds_max gauge
+checksSelectSolicitacaoPagamentoByID_seconds_max{class="br.com.bb.itp.dao.SolicitacaoPagamentoOpenBankingDao",exception="none",method="selectSolicitacaoPagamentoOpenBankingById",} 0.004782032
+# HELP checksSelectSolicitacaoPagamentoByID_seconds Estatistica de tempo do SELECT Convênio pelo ID na tabela DB2ITP.SLCT_PGTO_OPB.
+# TYPE checksSelectSolicitacaoPagamentoByID_seconds summary
+checksSelectSolicitacaoPagamentoByID_seconds_count{class="br.com.bb.itp.dao.SolicitacaoPagamentoOpenBankingDao",exception="none",method="selectSolicitacaoPagamentoOpenBankingById",} 51.0
+checksSelectSolicitacaoPagamentoByID_seconds_sum{class="br.com.bb.itp.dao.SolicitacaoPagamentoOpenBankingDao",exception="none",method="selectSolicitacaoPagamentoOpenBankingById",} 0.645523369
+# HELP system_cpu_count The number of processors available to the Java virtual machine
+# TYPE system_cpu_count gauge
+system_cpu_count 1.0
+# HELP hibernate_statements_total The number of prepared statements (see status for prepared or closed)
+# TYPE hibernate_statements_total counter
+hibernate_statements_total{entityManagerFactory="<default>",status="closed",} 0.0
+hibernate_statements_total{entityManagerFactory="<default>",status="prepared",} 150.0
+# HELP hibernate_collections_recreates_total Global number of collections recreated
+# TYPE hibernate_collections_recreates_total counter
+hibernate_collections_recreates_total{entityManagerFactory="<default>",} 0.0
+# HELP application_info holds static info of an application, such as it's semantic version number
+# TYPE application_info gauge
+application_info{version="3.0.3-RC01-SNAPSHOT",} 1.0
+# HELP checksQuantidadeEnvioFiloConsentimento_total Registra a quantidade de registros enviados para a fila de consentimento
+# TYPE checksQuantidadeEnvioFiloConsentimento_total counter
+checksQuantidadeEnvioFiloConsentimento_total{class="br.com.bb.itp.services.SolicitarAutorizacaoPagamentoOpenbankingService",exception="none",method="inserirPagamentoFilaConsentimento",result="success",} 5.0
+# HELP jvm_gc_live_data_size_bytes Size of long-lived heap memory pool after reclamation
+# TYPE jvm_gc_live_data_size_bytes gauge
+jvm_gc_live_data_size_bytes 1.7703472E7
+# HELP process_uptime_seconds The uptime of the Java virtual machine
+# TYPE process_uptime_seconds gauge
+process_uptime_seconds 5541.681
+# HELP hibernate_collections_loads_total Global number of collections loaded
+# TYPE hibernate_collections_loads_total counter
+hibernate_collections_loads_total{entityManagerFactory="<default>",} 0.0
+# HELP hibernate_entities_deletes_total Global number of entity deletes
+# TYPE hibernate_entities_deletes_total counter
+hibernate_entities_deletes_total{entityManagerFactory="<default>",} 0.0
+# HELP checksQuantidadeIniciacaoPagamento_total Registra a quantidade de iniciação de pagamento
+# TYPE checksQuantidadeIniciacaoPagamento_total counter
+checksQuantidadeIniciacaoPagamento_total{class="br.com.bb.itp.services.IniciarPagamentoService",exception="none",method="contadorExecucaoIniciacaoPagamento",result="success",} 1.0
+# HELP jvm_memory_usage_after_gc_percent The percentage of long-lived heap pool used after the last GC event, in the range [0..1]
+# TYPE jvm_memory_usage_after_gc_percent gauge
+jvm_memory_usage_after_gc_percent{area="heap",pool="long-lived",} 0.11949978725803806
+# HELP dependency_request_seconds_max records in a histogram the number of requests of a dependency and their duration in seconds
+# TYPE dependency_request_seconds_max gauge
+dependency_request_seconds_max{addr="/op6103656v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",} 0.0
+dependency_request_seconds_max{addr="/op4739009v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 0.144
+dependency_request_seconds_max{addr="/op6084914v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 3.646
+dependency_request_seconds_max{addr="/op5649413v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 0.047
+dependency_request_seconds_max{addr="/op6084914v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",} 0.0
+dependency_request_seconds_max{addr="/op1092761v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 0.0
+dependency_request_seconds_max{addr="/op4822848v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 0.0
+dependency_request_seconds_max{addr="/op4910358v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 0.035
+dependency_request_seconds_max{addr="/op6103656v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 0.0
+dependency_request_seconds_max{addr="/op6087831v3",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 0.0
+# HELP dependency_request_seconds records in a histogram the number of requests of a dependency and their duration in seconds
+# TYPE dependency_request_seconds histogram
+dependency_request_seconds_bucket{addr="/op6103656v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",le="0.1",} 0.0
+dependency_request_seconds_bucket{addr="/op6103656v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",le="0.3",} 0.0
+dependency_request_seconds_bucket{addr="/op6103656v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",le="1.5",} 0.0
+dependency_request_seconds_bucket{addr="/op6103656v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",le="10.5",} 1.0
+dependency_request_seconds_bucket{addr="/op6103656v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",le="+Inf",} 1.0
+dependency_request_seconds_count{addr="/op6103656v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",} 1.0
+dependency_request_seconds_sum{addr="/op6103656v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",} 5.129
+dependency_request_seconds_bucket{addr="/op4739009v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.1",} 0.0
+dependency_request_seconds_bucket{addr="/op4739009v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.3",} 1.0
+dependency_request_seconds_bucket{addr="/op4739009v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="1.5",} 1.0
+dependency_request_seconds_bucket{addr="/op4739009v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="10.5",} 1.0
+dependency_request_seconds_bucket{addr="/op4739009v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="+Inf",} 1.0
+dependency_request_seconds_count{addr="/op4739009v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 1.0
+dependency_request_seconds_sum{addr="/op4739009v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 0.144
+dependency_request_seconds_bucket{addr="/op6084914v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.1",} 0.0
+dependency_request_seconds_bucket{addr="/op6084914v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.3",} 0.0
+dependency_request_seconds_bucket{addr="/op6084914v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="1.5",} 0.0
+dependency_request_seconds_bucket{addr="/op6084914v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="10.5",} 2.0
+dependency_request_seconds_bucket{addr="/op6084914v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="+Inf",} 2.0
+dependency_request_seconds_count{addr="/op6084914v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 2.0
+dependency_request_seconds_sum{addr="/op6084914v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 8.912
+dependency_request_seconds_bucket{addr="/op5649413v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.1",} 8.0
+dependency_request_seconds_bucket{addr="/op5649413v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.3",} 9.0
+dependency_request_seconds_bucket{addr="/op5649413v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="1.5",} 10.0
+dependency_request_seconds_bucket{addr="/op5649413v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="10.5",} 10.0
+dependency_request_seconds_bucket{addr="/op5649413v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="+Inf",} 10.0
+dependency_request_seconds_count{addr="/op5649413v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 10.0
+dependency_request_seconds_sum{addr="/op5649413v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 1.056
+dependency_request_seconds_bucket{addr="/op6084914v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",le="0.1",} 0.0
+dependency_request_seconds_bucket{addr="/op6084914v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",le="0.3",} 0.0
+dependency_request_seconds_bucket{addr="/op6084914v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",le="1.5",} 3.0
+dependency_request_seconds_bucket{addr="/op6084914v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",le="10.5",} 3.0
+dependency_request_seconds_bucket{addr="/op6084914v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",le="+Inf",} 3.0
+dependency_request_seconds_count{addr="/op6084914v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",} 3.0
+dependency_request_seconds_sum{addr="/op6084914v2",errorMessage="",isError="true",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="412",type="http",} 1.764
+dependency_request_seconds_bucket{addr="/op1092761v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.1",} 3.0
+dependency_request_seconds_bucket{addr="/op1092761v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.3",} 4.0
+dependency_request_seconds_bucket{addr="/op1092761v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="1.5",} 4.0
+dependency_request_seconds_bucket{addr="/op1092761v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="10.5",} 4.0
+dependency_request_seconds_bucket{addr="/op1092761v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="+Inf",} 4.0
+dependency_request_seconds_count{addr="/op1092761v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 4.0
+dependency_request_seconds_sum{addr="/op1092761v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 0.304
+dependency_request_seconds_bucket{addr="/op4822848v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.1",} 0.0
+dependency_request_seconds_bucket{addr="/op4822848v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.3",} 1.0
+dependency_request_seconds_bucket{addr="/op4822848v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="1.5",} 1.0
+dependency_request_seconds_bucket{addr="/op4822848v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="10.5",} 1.0
+dependency_request_seconds_bucket{addr="/op4822848v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="+Inf",} 1.0
+dependency_request_seconds_count{addr="/op4822848v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 1.0
+dependency_request_seconds_sum{addr="/op4822848v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 0.13
+dependency_request_seconds_bucket{addr="/op4910358v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.1",} 9.0
+dependency_request_seconds_bucket{addr="/op4910358v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.3",} 9.0
+dependency_request_seconds_bucket{addr="/op4910358v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="1.5",} 9.0
+dependency_request_seconds_bucket{addr="/op4910358v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="10.5",} 9.0
+dependency_request_seconds_bucket{addr="/op4910358v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="+Inf",} 9.0
+dependency_request_seconds_count{addr="/op4910358v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 9.0
+dependency_request_seconds_sum{addr="/op4910358v1",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 0.501
+dependency_request_seconds_bucket{addr="/op6103656v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.1",} 0.0
+dependency_request_seconds_bucket{addr="/op6103656v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.3",} 0.0
+dependency_request_seconds_bucket{addr="/op6103656v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="1.5",} 1.0
+dependency_request_seconds_bucket{addr="/op6103656v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="10.5",} 1.0
+dependency_request_seconds_bucket{addr="/op6103656v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="+Inf",} 1.0
+dependency_request_seconds_count{addr="/op6103656v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 1.0
+dependency_request_seconds_sum{addr="/op6103656v2",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 1.441
+dependency_request_seconds_bucket{addr="/op6087831v3",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.1",} 0.0
+dependency_request_seconds_bucket{addr="/op6087831v3",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="0.3",} 0.0
+dependency_request_seconds_bucket{addr="/op6087831v3",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="1.5",} 0.0
+dependency_request_seconds_bucket{addr="/op6087831v3",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="10.5",} 1.0
+dependency_request_seconds_bucket{addr="/op6087831v3",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",le="+Inf",} 1.0
+dependency_request_seconds_count{addr="/op6087831v3",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 1.0
+dependency_request_seconds_sum{addr="/op6087831v3",errorMessage="",isError="false",method="POST",name="br.com.bb.itp.integration.InterfaceConsumidor",status="200",type="http",} 3.196
+# HELP hibernate_query_executions_max_MILLISECONDS The maximum query time for queries executed against the database
+# TYPE hibernate_query_executions_max_MILLISECONDS gauge
+hibernate_query_executions_max_MILLISECONDS{entityManagerFactory="<default>",} 211.0
+# HELP hibernate_entities_fetches_total Global number of entity fetches
+# TYPE hibernate_entities_fetches_total counter
+hibernate_entities_fetches_total{entityManagerFactory="<default>",} 0.0
+# HELP hibernate_entities_loads_total Global number of entity loads
+# TYPE hibernate_entities_loads_total counter
+hibernate_entities_loads_total{entityManagerFactory="<default>",} 87.0
+# HELP http_client_requests_seconds  
+# TYPE http_client_requests_seconds summary
+http_client_requests_seconds_count{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op6084914v2",} 2.0
+http_client_requests_seconds_sum{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op6084914v2",} 8.910781936
+http_client_requests_seconds_count{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op4739009v2",} 1.0
+http_client_requests_seconds_sum{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op4739009v2",} 0.143116564
+http_client_requests_seconds_count{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op4910358v1",} 9.0
+http_client_requests_seconds_sum{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op4910358v1",} 0.468249947
+http_client_requests_seconds_count{clientName="localhost",method="POST",outcome="CLIENT_ERROR",status="412",uri="/op6103656v2",} 1.0
+http_client_requests_seconds_sum{clientName="localhost",method="POST",outcome="CLIENT_ERROR",status="412",uri="/op6103656v2",} 5.128070653
+http_client_requests_seconds_count{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op1092761v1",} 4.0
+http_client_requests_seconds_sum{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op1092761v1",} 0.266365744
+http_client_requests_seconds_count{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op6087831v3",} 1.0
+http_client_requests_seconds_sum{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op6087831v3",} 3.195975879
+http_client_requests_seconds_count{clientName="localhost",method="POST",outcome="CLIENT_ERROR",status="412",uri="/op6084914v2",} 3.0
+http_client_requests_seconds_sum{clientName="localhost",method="POST",outcome="CLIENT_ERROR",status="412",uri="/op6084914v2",} 1.762372401
+http_client_requests_seconds_count{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op4822848v1",} 1.0
+http_client_requests_seconds_sum{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op4822848v1",} 0.128865762
+http_client_requests_seconds_count{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op5649413v1",} 10.0
+http_client_requests_seconds_sum{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op5649413v1",} 1.036055427
+http_client_requests_seconds_count{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op6103656v2",} 1.0
+http_client_requests_seconds_sum{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op6103656v2",} 1.440016946
+# HELP http_client_requests_seconds_max  
+# TYPE http_client_requests_seconds_max gauge
+http_client_requests_seconds_max{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op6084914v2",} 3.645145119
+http_client_requests_seconds_max{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op4739009v2",} 0.143116564
+http_client_requests_seconds_max{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op4910358v1",} 0.033972022
+http_client_requests_seconds_max{clientName="localhost",method="POST",outcome="CLIENT_ERROR",status="412",uri="/op6103656v2",} 0.0
+http_client_requests_seconds_max{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op1092761v1",} 0.0
+http_client_requests_seconds_max{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op6087831v3",} 0.0
+http_client_requests_seconds_max{clientName="localhost",method="POST",outcome="CLIENT_ERROR",status="412",uri="/op6084914v2",} 0.0
+http_client_requests_seconds_max{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op4822848v1",} 0.0
+http_client_requests_seconds_max{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op5649413v1",} 0.045862015
+http_client_requests_seconds_max{clientName="localhost",method="POST",outcome="SUCCESS",status="200",uri="/op6103656v2",} 0.0
+# HELP hibernate_transactions_total The number of transactions (see result for success or failure)
+# TYPE hibernate_transactions_total counter
+hibernate_transactions_total{entityManagerFactory="<default>",result="success",} 85.0
+hibernate_transactions_total{entityManagerFactory="<default>",result="failure",} 0.0
+# HELP jvm_buffer_total_capacity_bytes An estimate of the total capacity of the buffers in this pool
+# TYPE jvm_buffer_total_capacity_bytes gauge
+jvm_buffer_total_capacity_bytes{id="mapped",} 0.0
+jvm_buffer_total_capacity_bytes{id="direct",} 892959.0
+# HELP jvm_memory_committed_bytes The amount of memory in bytes that is committed for the Java virtual machine to use
+# TYPE jvm_memory_committed_bytes gauge
+jvm_memory_committed_bytes{area="heap",id="Tenured Gen",} 2.9507584E7
+jvm_memory_committed_bytes{area="nonheap",id="CodeHeap 'profiled nmethods'",} 2.162688E7
+jvm_memory_committed_bytes{area="heap",id="Eden Space",} 1.1927552E7
+jvm_memory_committed_bytes{area="nonheap",id="Metaspace",} 7.2372224E7
+jvm_memory_committed_bytes{area="nonheap",id="CodeHeap 'non-nmethods'",} 2555904.0
+jvm_memory_committed_bytes{area="heap",id="Survivor Space",} 1441792.0
+jvm_memory_committed_bytes{area="nonheap",id="Compressed Class Space",} 9568256.0
+jvm_memory_committed_bytes{area="nonheap",id="CodeHeap 'non-profiled nmethods'",} 5701632.0
+# HELP system_load_average_1m The sum of the number of runnable entities queued to available processors and the number of runnable entities running on the available processors averaged over a period of time
+# TYPE system_load_average_1m gauge
+system_load_average_1m 1.89
+# HELP system_cpu_usage The "recent cpu usage" of the system the application is running in
+# TYPE system_cpu_usage gauge
+system_cpu_usage 0.01922683409090909
+# HELP jvm_threads_live_threads The current number of live threads including both daemon and non-daemon threads
+# TYPE jvm_threads_live_threads gauge
+jvm_threads_live_threads 19.0
+# HELP process_cpu_usage The "recent cpu usage" for the Java Virtual Machine process
+# TYPE process_cpu_usage gauge
+process_cpu_usage 0.022727272727272728
+# HELP hibernate_cache_update_timestamps_requests_total The number of update timestamps cache requests (see result for hit or miss)
+# TYPE hibernate_cache_update_timestamps_requests_total counter
+hibernate_cache_update_timestamps_requests_total{entityManagerFactory="<default>",result="hit",} 0.0
+hibernate_cache_update_timestamps_requests_total{entityManagerFactory="<default>",result="miss",} 0.0
+# HELP jvm_gc_memory_allocated_bytes_total Incremented for an increase in the size of the (young) heap memory pool after one GC to before the next
+# TYPE jvm_gc_memory_allocated_bytes_total counter
+jvm_gc_memory_allocated_bytes_total 6.06967528E8
+# HELP checksConsultaAutorizacaoSolicitacaoRedis_total Registra a quantidade de consultas no REDIS para a consulta da autorização.
+# TYPE checksConsultaAutorizacaoSolicitacaoRedis_total counter
+checksConsultaAutorizacaoSolicitacaoRedis_total{class="br.com.bb.itp.services.ConsultarAutorizacaoPagamentoOpenbankingService",exception="none",method="sucessoConsultaRedis",result="success",} 2.0
+# HELP jvm_info_total JVM version info
+# TYPE jvm_info_total counter
+jvm_info_total{runtime="OpenJDK Runtime Environment",vendor="Red Hat, Inc.",version="11.0.17+8-LTS",} 1.0
+# HELP process_files_open_files The open file descriptor count
+# TYPE process_files_open_files gauge
+process_files_open_files 55.0
+# HELP jvm_gc_max_data_size_bytes Max size of long-lived heap memory pool
+# TYPE jvm_gc_max_data_size_bytes gauge
+jvm_gc_max_data_size_bytes 1.74784512E8
+# HELP checksTempoExecucaoIniciacaoPagamento_seconds Tempo de iniciação de pagamento
+# TYPE checksTempoExecucaoIniciacaoPagamento_seconds summary
+checksTempoExecucaoIniciacaoPagamento_seconds_count{class="br.com.bb.itp.rest.v2.IniciarPagamentoResource",exception="none",method="servir",} 1.0
+checksTempoExecucaoIniciacaoPagamento_seconds_sum{class="br.com.bb.itp.rest.v2.IniciarPagamentoResource",exception="none",method="servir",} 0.349435227
+# HELP checksTempoExecucaoIniciacaoPagamento_seconds_max Tempo de iniciação de pagamento
+# TYPE checksTempoExecucaoIniciacaoPagamento_seconds_max gauge
+checksTempoExecucaoIniciacaoPagamento_seconds_max{class="br.com.bb.itp.rest.v2.IniciarPagamentoResource",exception="none",method="servir",} 0.0
+# HELP checksConsultaSolicitacaoPagamentoOPBComEstados_seconds_max Estatistica de tempo da consultaSolicitacaoPagamentoOPBComEstados na tabela DB2ITP.SLCT_PGTO_OPB.
+# TYPE checksConsultaSolicitacaoPagamentoOPBComEstados_seconds_max gauge
+checksConsultaSolicitacaoPagamentoOPBComEstados_seconds_max{class="br.com.bb.itp.dao.SolicitacaoPagamentoOPBComEstadosDao",exception="none",method="consultarSolicitacaoPagamentoOPBComEstados",} 0.0
+# HELP checksConsultaSolicitacaoPagamentoOPBComEstados_seconds Estatistica de tempo da consultaSolicitacaoPagamentoOPBComEstados na tabela DB2ITP.SLCT_PGTO_OPB.
+# TYPE checksConsultaSolicitacaoPagamentoOPBComEstados_seconds summary
+checksConsultaSolicitacaoPagamentoOPBComEstados_seconds_count{class="br.com.bb.itp.dao.SolicitacaoPagamentoOPBComEstadosDao",exception="none",method="consultarSolicitacaoPagamentoOPBComEstados",} 5.0
+checksConsultaSolicitacaoPagamentoOPBComEstados_seconds_sum{class="br.com.bb.itp.dao.SolicitacaoPagamentoOPBComEstadosDao",exception="none",method="consultarSolicitacaoPagamentoOPBComEstados",} 0.026446793
+# HELP jvm_gc_overhead_percent An approximation of the percent of CPU time used by GC activities over the last lookback period or since monitoring began, whichever is shorter, in the range [0..1]
+# TYPE jvm_gc_overhead_percent gauge
+jvm_gc_overhead_percent 1.6666666666666667E-5
+# HELP checksInsertSolicitcaoPagamentoOpenBanking_seconds Estatistica de tempo do Insert na tabela DB2ITP.SLCT_PGTO_OPB.
+# TYPE checksInsertSolicitcaoPagamentoOpenBanking_seconds summary
+checksInsertSolicitcaoPagamentoOpenBanking_seconds_count{class="br.com.bb.itp.dao.SolicitacaoPagamentoOpenBankingDao",exception="none",method="insertSolicitacaoPagamentoOpenBanking",} 5.0
+checksInsertSolicitcaoPagamentoOpenBanking_seconds_sum{class="br.com.bb.itp.dao.SolicitacaoPagamentoOpenBankingDao",exception="none",method="insertSolicitacaoPagamentoOpenBanking",} 0.476020266
+# HELP checksInsertSolicitcaoPagamentoOpenBanking_seconds_max Estatistica de tempo do Insert na tabela DB2ITP.SLCT_PGTO_OPB.
+# TYPE checksInsertSolicitcaoPagamentoOpenBanking_seconds_max gauge
+checksInsertSolicitcaoPagamentoOpenBanking_seconds_max{class="br.com.bb.itp.dao.SolicitacaoPagamentoOpenBankingDao",exception="none",method="insertSolicitacaoPagamentoOpenBanking",} 0.050161439
+# HELP jvm_gc_memory_promoted_bytes_total Count of positive increases in the size of the old generation memory pool before GC to after GC
+# TYPE jvm_gc_memory_promoted_bytes_total counter
+jvm_gc_memory_promoted_bytes_total 1.6261664E7
+# HELP dependency_up is a metric to register weather a specific dependency is up (1) or down (0). The label name registers the dependency name
+# TYPE dependency_up gauge
+dependency_up{name="br.com.bb.itp.integration.InterfaceConsumidor",} 1.0
+# HELP hibernate_entities_inserts_total Global number of entity inserts
+# TYPE hibernate_entities_inserts_total counter
+hibernate_entities_inserts_total{entityManagerFactory="<default>",} 0.0
+# HELP hibernate_cache_query_puts_total The number of cacheable queries put in cache
+# TYPE hibernate_cache_query_puts_total counter
+hibernate_cache_query_puts_total{entityManagerFactory="<default>",} 0.0
+# HELP hibernate_cache_update_timestamps_puts_total The number of update timestamps put in cache
+# TYPE hibernate_cache_update_timestamps_puts_total counter
+hibernate_cache_update_timestamps_puts_total{entityManagerFactory="<default>",} 446.0
+# HELP jvm_gc_pause_seconds Time spent in GC pause
+# TYPE jvm_gc_pause_seconds summary
+jvm_gc_pause_seconds_count{action="end of major GC",cause="Metadata GC Threshold",} 1.0
+jvm_gc_pause_seconds_sum{action="end of major GC",cause="Metadata GC Threshold",} 0.188
+jvm_gc_pause_seconds_count{action="end of major GC",cause="Allocation Failure",} 1.0
+jvm_gc_pause_seconds_sum{action="end of major GC",cause="Allocation Failure",} 0.175
+jvm_gc_pause_seconds_count{action="end of minor GC",cause="Allocation Failure",} 66.0
+jvm_gc_pause_seconds_sum{action="end of minor GC",cause="Allocation Failure",} 0.373
+# HELP jvm_gc_pause_seconds_max Time spent in GC pause
+# TYPE jvm_gc_pause_seconds_max gauge
+jvm_gc_pause_seconds_max{action="end of major GC",cause="Metadata GC Threshold",} 0.0
+jvm_gc_pause_seconds_max{action="end of major GC",cause="Allocation Failure",} 0.0
+jvm_gc_pause_seconds_max{action="end of minor GC",cause="Allocation Failure",} 0.002
+# HELP checksTempoExecucaoFilaConsentimento_seconds_max Tempo de processamento fila do consentimento
+# TYPE checksTempoExecucaoFilaConsentimento_seconds_max gauge
+checksTempoExecucaoFilaConsentimento_seconds_max{class="br.com.bb.itp.services.SolicitarConsentimentoOPBService",exception="none",method="tratarMensagem",} 3.69888587
+# HELP checksTempoExecucaoFilaConsentimento_seconds Tempo de processamento fila do consentimento
+# TYPE checksTempoExecucaoFilaConsentimento_seconds summary
+checksTempoExecucaoFilaConsentimento_seconds_count{class="br.com.bb.itp.services.SolicitarConsentimentoOPBService",exception="none",method="tratarMensagem",} 5.0
+checksTempoExecucaoFilaConsentimento_seconds_sum{class="br.com.bb.itp.services.SolicitarConsentimentoOPBService",exception="none",method="tratarMensagem",} 11.971231084
